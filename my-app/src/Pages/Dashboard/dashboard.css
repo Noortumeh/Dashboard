@@ -1,0 +1,60 @@
+/* Genaral color */
+:root{
+    --border-color:#cbc9c9;
+}
+/* Global */
+.content-flex{
+    display: flex;
+}
+.fa-solid{
+    color: #183153;
+    margin-right: 10px;
+}
+
+/* Side Bar */
+.side-bar{
+    padding: 20px;
+    width: 20%;
+    height: 100vh;
+    border-right: 1px solid var(--border-color);
+}
+.side-bar .item-link{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    display: block;
+    margin-top: 10px;
+    transition: 0.1s;
+    padding: 10px;
+}
+.item-link:hover{
+    background-color: #a0c8cf;
+    border-radius: 12px;
+}
+.active{
+    background-color: #a0c8cf;
+    border-radius: 12px;
+}
+/* Table */
+table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+tr:nth-child(even){
+    background-color: #f1f7f8;
+}
+th,td{
+    border: 1px solid #a0c8cf;
+    padding: 0.75rem;
+    text-align: center;
+}
+th{
+    background: #74afb9;
+    color: #fff;
+}
+td{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
